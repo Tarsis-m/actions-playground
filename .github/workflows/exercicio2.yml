@@ -18,6 +18,6 @@ jobs:
       uses: actions/upload-artifact@v3.1.2
       with:
         # Artifact name
-        name: MyRep
+        name: ${{ vars.NOME_ARQUIVO_UPLOAD }}
         path: .
         retention-days: 15
